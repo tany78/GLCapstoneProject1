@@ -1,0 +1,16 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EKS,0,73,876,USD,Number of EKS Clusters (1)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,91.046,1092.55,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (0.9 TB per month), DT Intra-Region: (0.4 TB per month), Data transfer cost (91.04599999999999)"
+My Estimate,US East (N. Virginia),,Classic Load Balancer,0,20.29,243.48,USD,"Number of Classic Load Balancers (1), Processed bytes per CLB (0.350 GB per hour)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,39.58,474.96,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (t2.small)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,36.87,442.44,USD,"Operating system (Linux), Quantity (1), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (t2.medium)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,13.47,161.64,USD,"Operating system (Linux), Quantity (1), Pricing strategy (On-Demand Instances), Storage amount (50 GB), Instance type (t2.micro)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (1), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),,AWS Web Application Firewall (WAF),0,90.6,1087.2,USD,"Number of Web Access Control Lists (Web ACLs) utilized (5 per month), Number of Rules added per Web ACL (10 per month), Number of Rule Groups per Web ACL (5 per month), Number of Rules inside each Rule Group (10 per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,0.251,3.01,USD,"GetMetricData: Number of metrics requested (100), Logs Delivered to S3: Data Ingested (1 GB)"
+My Estimate,US East (N. Virginia),,AWS CloudTrail,0,0,0,USD,"Management events units (millions), Write management trails (1), Read management trails (1), Data events units (millions), S3 trails (1), Lambda trails (1), Insight events units (millions), Trails with Insight events (1), Write management events (500 per month), Read management events (1000 per month)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
